@@ -56,6 +56,8 @@ int S = sentence * 100/word;
 int index = 0.0588 * L - 0.296 * S - 15.8;
 printf("%d\n", index);
 
+free(p);
+
 }
 
 
