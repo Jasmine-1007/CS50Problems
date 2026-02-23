@@ -48,6 +48,7 @@ int main (int argc, char *argv[]){
     }
     new[len] = "\0";
     printf("%s\n", new);
+    free(msg);
 
 
     return 0;
